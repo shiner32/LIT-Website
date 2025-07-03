@@ -198,3 +198,27 @@ footer{
     line-height: 1.4;
   }
 }
+@media (max-width: 600px) {
+    footer {
+      padding: 1.5rem 1rem;
+    }
+    .legal-row {
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .legal-row p {
+      margin: 0;
+      text-align: center;
+      width: 100%;
+    }
+    .legal-advice {
+      padding: 1rem 0;
+      text-align: center;
+    }
+    .legal-advice p {
+      margin: 0.5rem 0;
+    }
+  }
